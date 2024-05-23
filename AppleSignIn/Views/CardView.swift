@@ -2,7 +2,7 @@
 //  CardView.swift
 //  AppleSignIn
 //
-//  Created by asia on 23/05/2024.
+//  Created by Osman M. on 23/05/2024.
 //
 
 import SwiftUI
