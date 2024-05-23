@@ -11,6 +11,16 @@
 		6249D8E22BFE06C300B10D45 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6249D8E12BFE06C300B10D45 /* ContentView.swift */; };
 		6249D8E42BFE06C500B10D45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6249D8E32BFE06C500B10D45 /* Assets.xcassets */; };
 		6249D8E72BFE06C500B10D45 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6249D8E62BFE06C500B10D45 /* Preview Assets.xcassets */; };
+		6249D8EF2BFE10DE00B10D45 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6249D8EE2BFE10DE00B10D45 /* ViewModel.swift */; };
+		6249D8F12BFE111700B10D45 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6249D8F02BFE111700B10D45 /* Model.swift */; };
+		6249D8F32BFE173F00B10D45 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6249D8F22BFE173F00B10D45 /* WelcomeView.swift */; };
+		6249D8F72BFE630200B10D45 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6249D8F62BFE630200B10D45 /* SignInView.swift */; };
+		6249D8F92BFE776400B10D45 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6249D8F82BFE776400B10D45 /* LoadingView.swift */; };
+		6249D8FB2BFE77E900B10D45 /* AppleLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6249D8FA2BFE77E900B10D45 /* AppleLogo.swift */; };
+		6249D9012BFEABAF00B10D45 /* VisionProView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6249D9002BFEABAF00B10D45 /* VisionProView.swift */; };
+		6249D9032BFEB32600B10D45 /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6249D9022BFEB32600B10D45 /* DisplayView.swift */; };
+		6249D9052BFEB88800B10D45 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6249D9042BFEB88800B10D45 /* TitleView.swift */; };
+		6249D9072BFEF54500B10D45 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6249D9062BFEF54500B10D45 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,17 @@
 		6249D8E12BFE06C300B10D45 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6249D8E32BFE06C500B10D45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6249D8E62BFE06C500B10D45 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6249D8ED2BFE06E500B10D45 /* AppleSignIn.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppleSignIn.entitlements; sourceTree = "<group>"; };
+		6249D8EE2BFE10DE00B10D45 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		6249D8F02BFE111700B10D45 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		6249D8F22BFE173F00B10D45 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		6249D8F62BFE630200B10D45 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		6249D8F82BFE776400B10D45 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		6249D8FA2BFE77E900B10D45 /* AppleLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleLogo.swift; sourceTree = "<group>"; };
+		6249D9002BFEABAF00B10D45 /* VisionProView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionProView.swift; sourceTree = "<group>"; };
+		6249D9022BFEB32600B10D45 /* DisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayView.swift; sourceTree = "<group>"; };
+		6249D9042BFEB88800B10D45 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		6249D9062BFEF54500B10D45 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +72,12 @@
 		6249D8DE2BFE06C300B10D45 /* AppleSignIn */ = {
 			isa = PBXGroup;
 			children = (
-				6249D8DF2BFE06C300B10D45 /* AppleSignInApp.swift */,
+				6249D8FF2BFE785800B10D45 /* App */,
+				6249D8FE2BFE784600B10D45 /* Model */,
+				6249D8FD2BFE783E00B10D45 /* ViewModel */,
+				6249D8FC2BFE780E00B10D45 /* Views */,
 				6249D8E12BFE06C300B10D45 /* ContentView.swift */,
+				6249D8ED2BFE06E500B10D45 /* AppleSignIn.entitlements */,
 				6249D8E32BFE06C500B10D45 /* Assets.xcassets */,
 				6249D8E52BFE06C500B10D45 /* Preview Content */,
 			);
@@ -65,6 +90,45 @@
 				6249D8E62BFE06C500B10D45 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6249D8FC2BFE780E00B10D45 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6249D8FA2BFE77E900B10D45 /* AppleLogo.swift */,
+				6249D8F82BFE776400B10D45 /* LoadingView.swift */,
+				6249D8F62BFE630200B10D45 /* SignInView.swift */,
+				6249D8F22BFE173F00B10D45 /* WelcomeView.swift */,
+				6249D9002BFEABAF00B10D45 /* VisionProView.swift */,
+				6249D9022BFEB32600B10D45 /* DisplayView.swift */,
+				6249D9042BFEB88800B10D45 /* TitleView.swift */,
+				6249D9062BFEF54500B10D45 /* CardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6249D8FD2BFE783E00B10D45 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6249D8EE2BFE10DE00B10D45 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6249D8FE2BFE784600B10D45 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6249D8F02BFE111700B10D45 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6249D8FF2BFE785800B10D45 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6249D8DF2BFE06C300B10D45 /* AppleSignInApp.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +201,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6249D8F72BFE630200B10D45 /* SignInView.swift in Sources */,
 				6249D8E22BFE06C300B10D45 /* ContentView.swift in Sources */,
+				6249D8EF2BFE10DE00B10D45 /* ViewModel.swift in Sources */,
+				6249D9032BFEB32600B10D45 /* DisplayView.swift in Sources */,
+				6249D8F32BFE173F00B10D45 /* WelcomeView.swift in Sources */,
 				6249D8E02BFE06C300B10D45 /* AppleSignInApp.swift in Sources */,
+				6249D9012BFEABAF00B10D45 /* VisionProView.swift in Sources */,
+				6249D8FB2BFE77E900B10D45 /* AppleLogo.swift in Sources */,
+				6249D9052BFEB88800B10D45 /* TitleView.swift in Sources */,
+				6249D8F92BFE776400B10D45 /* LoadingView.swift in Sources */,
+				6249D9072BFEF54500B10D45 /* CardView.swift in Sources */,
+				6249D8F12BFE111700B10D45 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +343,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AppleSignIn/AppleSignIn.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AppleSignIn/Preview Content\"";
@@ -298,6 +373,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AppleSignIn/AppleSignIn.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AppleSignIn/Preview Content\"";

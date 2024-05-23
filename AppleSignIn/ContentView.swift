@@ -2,23 +2,50 @@
 //  ContentView.swift
 //  AppleSignIn
 //
-//  Created by asia on 22/05/2024.
+//  Created by Osman M. on 22/05/2024.
 //
 
 import SwiftUI
 
 struct ContentView: View {
+    
+    @EnvironmentObject private var viewModel: CloudKitViewModel
+    
+    @State private var isActive: Bool = false
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            Group {
+                if isActive {
+                    if viewModel.user != nil {
+                        WelcomeView()
+                    } else {
+                        SignInView()
+                        if let errorMessage = viewModel.errorMessage {
+                            Text(errorMessage)
+                                .foregroundStyle(.red.gradient)
+                                .padding(.horizontal)
+                        }
+                    }
+                } else {
+                    AppleLogo()
+                }
+            }
         }
-        .padding()
+        .onAppear {
+            viewModel.checkUserStatus()
+            DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+                withAnimation (.easeInOut(duration: 1.0)) {
+                    isActive = true
+                }
+            }
+        }
     }
 }
 
 #Preview {
     ContentView()
+        .environmentObject(CloudKitViewModel())
 }
+
+
