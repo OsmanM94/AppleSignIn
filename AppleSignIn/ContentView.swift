@@ -18,7 +18,7 @@ struct ContentView: View {
             Group {
                 if isActive {
                     if viewModel.user != nil {
-                        WelcomeView()
+                        ShopView()
                     } else {
                         SignInView()
                         if let errorMessage = viewModel.errorMessage {

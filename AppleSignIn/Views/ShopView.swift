@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct WelcomeView: View {
+struct ShopView: View {
     
     @EnvironmentObject private var viewModel: CloudKitViewModel
 
@@ -66,7 +66,7 @@ struct WelcomeView: View {
 }
 
 #Preview {
-    WelcomeView()
+    ShopView()
         .environmentObject(CloudKitViewModel())
 }
 
